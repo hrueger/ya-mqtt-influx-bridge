@@ -1,0 +1,27 @@
+{
+  "name": "ya-mqtt-influx-bridge",
+  "version": "1.0.0",
+  "description": "Yet another MQTT to InfluxDB bridge ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrueger/ya-mqtt-influx-bridge.git"
+  },
+  "keywords": [
+    "InfluxDB",
+    "MQTT",
+    "bridge"
+  ],
+  "author": "Hannes Rüger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrueger/ya-mqtt-influx-bridge/issues"
+  },
+  "homepage": "https://github.com/hrueger/ya-mqtt-influx-bridge#readme",
+  "dependencies": {
+    "mqtt": "^4.2.1"
+  }
+}
