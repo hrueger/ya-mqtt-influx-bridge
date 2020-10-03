@@ -2,7 +2,7 @@ FROM mhart/alpine-node AS builder
 WORKDIR /app/
 COPY package.json .
 COPY src/* ./src/
-RUN npm i && npm i @vercel/ncc -g && ncc build src/index.js
+RUN npm i && npm i @vercel/ncc -g && ncc build -m src/index.js
 
 FROM mhart/alpine-node
 WORKDIR /app/
