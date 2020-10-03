@@ -1,10 +1,10 @@
 {
   "name": "ya-mqtt-influx-bridge",
   "version": "1.0.0",
-  "description": "Yet another MQTT to InfluxDB bridge ",
+  "description": "Yet another MQTT to InfluxDB bridge",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
